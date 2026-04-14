@@ -158,8 +158,8 @@ SELECT  UserID0  AS UserID,
         date_format(TO_TIMESTAMP(RecordDate22, 'yyyy:mm:dd'), 'yyyy:mm:dd') AS RecordDate, 
   -- Get the month name (e.g., Jan, Mar.etc)
         Monthname(RecordDate22) AS Month_name, 
-  -- Get the day name (e.g., Monday)
-        date_format(TO_TIMESTAMP(RecordDate22, 'yyyy:mm:dd'), 'EEEE') AS Day_name, 
+  -- Get the day name (e.g., Mon)
+       Dayname(RecordDate22) AS Day_name,
 
 CASE
    WHEN Day_name IN('Sat','Sun') THEN 'Weekend'
