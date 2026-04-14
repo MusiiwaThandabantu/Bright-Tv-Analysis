@@ -164,7 +164,7 @@ SELECT  UserID0  AS UserID,
 CASE
    WHEN Day_name IN('Sat','Sun') THEN 'Weekend'
         ELSE 'Weekdays'
-    END AS Days,
+    END AS Days_Classification,
 
  CASE
     WHEN date_format(RecordDate22, 'HH:mm:ss') BETWEEN '00:00:00' AND '11:59:59' THEN 'Morning'
