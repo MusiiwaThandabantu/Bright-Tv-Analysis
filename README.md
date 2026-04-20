@@ -48,8 +48,8 @@ Key Notes:
 - Certain content categories drive higher engagement
 - Low-consumption periods present an opportunity for targeted content releases
 
-  # Recommendations
-# Content Strategy
+# Recommendations
+ # Content Strategy
 - Introduce high-demand content during low-consumption periods
 - Personalize recommendations based on user viewing history
 
