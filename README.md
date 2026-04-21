@@ -27,6 +27,8 @@ Key Notes:
 - Azure Databricks SQL – Data cleaning, transformation, and analysis
 - Python – Data preprocessing and feature engineering
 - Excel / Power BI / Google Looker Studio – Data visualization and dashboarding
+- Loveable https://musiiwa
+.lovable.app/
 
   # Key Analysis Areas
 1. User & Usage Trends
