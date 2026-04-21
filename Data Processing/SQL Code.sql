@@ -111,7 +111,7 @@ WHERE TRIM(Gender) = '';
 ---MAIN CODE: Data cleaning: columns and Standardising duration to (HH:mm:ss)
 SELECT  UserID0  AS UserID,
         Channel2 AS Channel, 
-       date_format(TO_TIMESTAMP(RecordDate2, 'yyyy:mm:dd'), 'yyyy:mm:dd') AS RecordDate,
+       date_format(TO_TIMESTAMP(RecordDate2, 'yyyy:MM:dd'), 'yyyy:MM:dd') AS RecordDate,
         date_format(DATEADD(Hour, 2, RecordDate2), 'HH:mm:ss')  AS SouthAfricaTime,
        date_format(TO_TIMESTAMP(`Duration 2`, 'HH:mm:ss'), 'HH:mm:ss') AS Duration,
        Age AS Age,
